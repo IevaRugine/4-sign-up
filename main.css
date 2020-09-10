@@ -13,9 +13,10 @@ body {
 
 .container {
     display: inline-block;
-    width: 600 px;
+    width: 600px;
     margin-top: 100px;
-    margin-left: calc(100%-600px) / 2;
+    margin-left: 20%;
+    /* margin-left: calc ( 100% - 600px) / 2); */
     background-color: teal;
 }
 
