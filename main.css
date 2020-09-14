@@ -13,18 +13,28 @@ body {
 
 .container {
     display: inline-block;
-    width: 600px;
+    width: 800px;
     margin-top: 100px;
-    margin-left: calc((100% - 600px) / 2);
+    margin-left: calc((100% - 800px) / 2);
     background-color: teal;
 }
 
 .left-column {
     display: inline-block;
     width: 40%;
+    height: 440px;
+    margin-top:30px;
     float: left;
     padding: 40px;
     background-color: rebeccapurple;
+    background-image: url(./kalnai.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    Color:white;
+}
+.link{
+    color: white;
 }
 
 .right-column {
@@ -34,3 +44,66 @@ body {
     background-color: #ffffff;
     padding: 60px;
 }
+    	.close{
+            display: inline-block;
+        }
+        .form{
+            display: inline-block;
+            width: 100%;
+           
+        }
+            .form-row{
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 30px;
+                
+            }
+            .form-row: :last-of-type {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 0px; 
+            }
+
+            label{
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 5px;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+            input{
+                display: inline-block;
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #C8C8C8;
+            }
+            .btn{
+                display: inline-block;
+                background-color: blue;
+                color: white;
+                line-height: 20px;
+                padding: 10px;
+                padding-left: 50px;
+                padding-right: 50px;
+                border-radius: 20px;
+                font-weight: bold;
+
+            }
+            .or{
+                display: inline-block;
+                padding: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                line-height: 20px,
+
+            }
+            .blue-link{
+                display: inline-block;
+                color: blue;
+                text-decoration: none;
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                line-height: 20px,
+
+            }
